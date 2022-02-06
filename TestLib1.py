@@ -17,10 +17,10 @@ class Test_Libreria1_cplx(unittest.TestCase):
        self.assertEqual(lc.divisioncplx((5.3,-2),(3.5,1)), (1.2490566037735849, -0.9283018867924528))
 
     def test_modulocplx(self):
-       self.assertEqual(lc.modulocplx((-9,13)), 15.811388300841896)
+       self.assertEqual(lc.modulocplx((-6,13)), 14.317821063276353)
 
     def test_conjugadocplx(self):
-       self.assertEqual(lc.conjugadocplx((6,-13)), (6,13))
+       self.assertEqual(lc.conjugadocplx((-6,13)), (-6,-13))
 
     def test_conversion(self):
         self.assertEqual(lc.conversion_polar_cartesianas((2,1), (math.sqrt(5)),(0.4636), ),('Polares: (2.23606797749979, 0.4636476090008061)', 'Cartesianas: (2.0, 1.0)'))

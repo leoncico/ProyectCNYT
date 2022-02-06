@@ -49,6 +49,7 @@ if __name__ == '__main__':
     print ("Producto de complejos" , productocplx((8 , 2 ), (-5 , 1)))
     print ("Resta de complejos" , restacplx((-8 , 5), (1,5)))
     print ("Division de complejos" , divisioncplx((5.3,-2),(3.5,1)))
+    print ("Modulo de complejos" , modulocplx((-6,13)))
     print ("Conjugado de un complejo" , conjugadocplx ((13 , 5)))
     print ("Conversion de polar a cartesianas" , conversion_polar_cartesianas((2,1), (math.sqrt(5)),(0.4636)))
     print ("Fase de un complejo" , fase((2,1)))
