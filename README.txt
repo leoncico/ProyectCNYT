@@ -48,3 +48,6 @@ PyCharm Community Edition
 Autores
 David Leonardo Piñeros – Programador.
 Luis Daniel Benavides – Tutor y Revisor.
+
+Licencia
+Este proyecto está bajo la licencia GNU General Public License - mire el archivo LICENSE.txt para mas detalles.
